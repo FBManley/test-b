@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import JakeResume from './public/JakeResume.pdf'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <a href={JakeResume}></a>
       </header>
     </div>
   );
